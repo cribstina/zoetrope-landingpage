@@ -1,0 +1,241 @@
+body {
+    background: linear-gradient(-45deg, #271e63, #be5feb, #271e63, #131324);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    padding: 0;
+    margin: 0;
+    
+}
+
+img {
+    max-height: 600px;
+}
+
+/* animacao do gradiente */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/*menu superior*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+        
+    font-family: Saira;
+    font-size: 14px;
+    font-weight: bold;
+
+    color: white;
+    
+}
+
+
+.pages {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pages > li {
+    list-style: none;
+    padding: 20%;
+    font-family: Saira;
+    font-size: 16px;
+    font-weight: normal;
+    
+    color: white;
+
+    cursor: pointer;
+}
+
+.botao-entrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 50px;
+
+    background: #BE5FEB;
+    border: 6px solid #271E63;
+    box-sizing: border-box;
+    box-shadow: inset -6px -6px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    font-family: Saira;
+    font-size: 16px;
+    font-weight: bolder;
+    color: whitesmoke;
+
+    cursor: pointer;
+}
+
+/*o texto grande no meio da pagina*/
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.titulo > h1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: Roboto Condensed;
+    font-weight: bolder;
+    font-size: 96px;
+    color: whitesmoke;
+}
+
+.titulo > p {
+    font-family: Saira;
+    font-size: 28px;
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+.botoes {
+    display: flex;
+}
+
+/*botao comecar*/
+
+.comecar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 50px;
+
+    background: white;
+    border: 6px solid #271E63;
+    box-sizing: border-box;
+    box-shadow: inset -6px -6px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    opacity: 0.9;
+    
+
+    font-family: Saira;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #080325;
+
+    cursor: pointer;
+}
+
+
+/*botao faq*/
+
+.visiteofaq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 190px;
+    height: 50px;
+    
+    border-radius: 20px;
+
+    font-family: Saira;
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+
+    cursor: pointer;
+}
+
+/*parte de features*/
+.venda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top:5%;
+
+    background: #0c0c29;
+}
+
+.venda2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top:5%;
+
+    background: #be5feb;
+}
+
+.venda3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-top:5%;
+
+    background: #0c0c29;
+}
+
+.features {
+    list-style: none;
+    font-family: Saira;
+    font-size: 20px;
+
+    padding-right: 50px;
+    padding-left: 50px;
+
+    color: white;
+;
+
+}
+
+/*css do footer*/
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #080325;
+    padding: 40px;
+    
+
+    font-family: Saira;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+footer > img {
+    max-height: 100px;
+}
+
+
+
